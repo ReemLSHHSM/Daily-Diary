@@ -118,6 +118,7 @@ namespace DiaryManager
         {
             DateTime tempDate;
             return DateTime.TryParse(date, out tempDate) && date.Length == 10 && date[4] == ('-') && date[7] == '-';
+
         }
 
     }
